@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider{
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    height: 600px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+
+.largeview > img{
+    width: 100%;
+    height: 500px;
+}
+
+
+.preview{
+    width: 100%;
+    height: 158px;
+    border: 5px solid black;
+    /* margin-top: 490px; */
+    display: flex;
+    /* overflow:hidden      ; */
+    overflow-x: auto;
+    
+}
+.preview::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.preview img{
+    border: 5px solid red;
+    max-width: 510px; /* Her bir resmin maksimum genişliğini, içinde bulunduğu elementin genişliği kadar ayarlar */
+    height: 110px;
+    line-height: 110px; 
+    text-align: center;
+
+
+}
